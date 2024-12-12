@@ -4,60 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>User Profile</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f4f4f4;
-        }
-        .container {
-            width: 80%;
-            margin: 30px auto;
-            background-color: white;
-            padding: 20px;
-            border-radius: 8px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-        }
-        .header1 {
-            text-align: center;
-            margin-bottom: 30px;
-        }
-        .profile-image {
-            border-radius: 50%;
-            width: 150px;
-            height: 150px;
-            object-fit: cover;
-            margin-bottom: 20px;
-        }
-        .profile-info {
-            font-size: 18px;
-        }
-        .profile-info p {
-            margin: 10px 0;
-        }
-        .profile-info strong {
-            font-weight: bold;
-        }
-        .card {
-            display: flex;
-            justify-content: space-between;
-            margin: 15px 0;
-        }
-        .card label {
-            font-weight: bold;
-        }
-        .card .value {
-            color: #555;
-        }
-        .section-title {
-            margin-top: 30px;
-            font-size: 24px;
-            font-weight: bold;
-            text-align: center;
-            color: #333;
-        }
-    </style>
+    <link rel="stylesheet" type="text/css" href="<?php echo base_url().'assets/details.css';?>">
+   
 </head>
 <body>
 <?php $this->load->view('Header');?>

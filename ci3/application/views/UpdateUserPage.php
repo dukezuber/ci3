@@ -6,49 +6,6 @@
         <title>Update Form</title>
         <link href="https://cdnjs.cloudflare.com/ajax/libs/cropperjs/1.5.12/cropper.min.css" rel="stylesheet">
         <script src="https://cdnjs.cloudflare.com/ajax/libs/cropperjs/1.5.12/cropper.min.js"></script>
-
-        <style>
-            .modal {
-                display: none;
-                position: fixed;
-                z-index: 1;
-                left: 50%;
-                top: 50%;
-                transform: translate(-50%, -50%);
-                width: 50%;
-                height: 70%;
-                background-color: white;
-                box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
-                border-radius: 5px;
-                overflow: auto;
-                padding: 10px;  
-            }
-
-            .modal-content {
-                background-color: #fefefe;
-                margin: 10% auto;
-                padding: 10px;
-                border: 1px solid #888;
-                width: 80%;
-            }
-
-            .close {
-                color: #aaa;
-                font-size: 28px;
-                font-weight: bold;
-                position: absolute;
-                top: 10px;
-                right: 25px;
-            }
-
-            .close:hover,
-            .close:focus {
-                color: black;
-                text-decoration: none;
-                cursor: pointer;
-            }
-        </style>
-
     </head>
     <body>
         <?php $this->load->view('Header'); ?>
